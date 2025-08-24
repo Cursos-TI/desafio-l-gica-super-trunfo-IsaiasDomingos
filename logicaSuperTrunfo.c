@@ -33,8 +33,14 @@ int main() {
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
+    
+    // Exemplo:
+    // printf("Digite o código da cidade: ");
+    // scanf("%s", codigo);
+    // 
+    // (Repita para cada propriedade)
 
-     printf("\n***Bem-vindo(a) ao Jogo Super Trunfo:***\n");
+    printf("\n***Bem-vindo(a) ao Jogo Super Trunfo:***\n");
 
     // Cadastro da primeira carta
     printf("Insira os dados da primeira carta:\n");
@@ -90,11 +96,6 @@ int main() {
     densidadepop2 = populacao2 / area2;
     pibcap2 = pib2 / populacao2;
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
@@ -106,6 +107,7 @@ int main() {
     // } else {
     //     printf("Cidade 2 tem maior população.\n");
     // }
+  
 
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
@@ -113,6 +115,8 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+
+    
 
     return 0;
 }

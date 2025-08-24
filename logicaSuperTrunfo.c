@@ -126,7 +126,6 @@ int main() {
     } else if (populacao2 > populacao1) {
     printf("Resultado: Carta 2 (%s) Venceu!\n", nome2);
     }else {
-
     printf("\n Resultado: Empate! \n");
     }
 
